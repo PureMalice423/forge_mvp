@@ -1,0 +1,16 @@
+{
+  "name": "forge-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/forge-kernel",
+    "packages/forge-ui",
+    "packages/forge-db",
+    "packages/forge-crypto"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w packages/forge-ui",
+    "build": "npm run build -w packages/forge-ui",
+    "lint": "npm run lint -w packages/forge-ui"
+  }
+}
