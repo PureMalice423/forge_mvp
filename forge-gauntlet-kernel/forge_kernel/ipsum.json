@@ -1,0 +1,125 @@
+{
+  "internal": {
+    "meta": {
+      "type": "FORGE_IPSUM_INTERNAL",
+      "owner": "Founder",
+      "project": "Creating AI Options",
+      "visibility": "internal_only",
+      "exportable": false,
+      "version": "1.0.0",
+      "notes": "Raw founder-voice ipsum. Never serialized to public-facing clients."
+    },
+    "entries": [
+      {
+        "id": "fnd_001",
+        "raw": "Used-to-be’s ain’t no more.",
+        "themes": ["change", "nostalgia", "reality"],
+        "origin": "founder",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "fnd_002",
+        "raw": "If it was a fifth, you all would be drunk and I'd be dead.",
+        "themes": ["denial", "near_miss", "consequence"],
+        "origin": "founder",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "fnd_003",
+        "raw": "You'll have that on them big jobs.",
+        "themes": ["complexity", "friction", "acceptance"],
+        "origin": "founder",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "fnd_004",
+        "raw": "If it was raining pussy I'd get one with a dick broke off in it.",
+        "themes": ["variance", "bad_luck", "dark_humor"],
+        "origin": "founder",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "fnd_005",
+        "raw": "Some folks don’t learn till the lesson’s written in blood or court papers.",
+        "themes": ["consequence", "stubbornness", "justice_system"],
+        "origin": "founder",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "fnd_006",
+        "raw": "You can run wild for years, but that clock don’t stop, it just waits to send the bill.",
+        "themes": ["time", "debt", "delayed_cost"],
+        "origin": "founder",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "fnd_007",
+        "raw": "Mountain folks remember what paper forgets.",
+        "themes": ["memory", "reputation", "community"],
+        "origin": "founder",
+        "visibility": "internal_only"
+      }
+    ]
+  },
+  "public": {
+    "meta": {
+      "type": "FORGE_IPSUM_PUBLIC",
+      "project": "Creating AI Options",
+      "visibility": "public_safe",
+      "exportable": true,
+      "version": "1.0.0",
+      "notes": "Encoded, market-safe equivalents of internal founder ipsum."
+    },
+    "entries": [
+      {
+        "id": "pub_001",
+        "maps_internal": ["fnd_001"],
+        "encoded": "What used to work doesn’t work by default; every era demands its own answers.",
+        "themes": ["change", "adaptation"],
+        "visibility": "public_safe"
+      },
+      {
+        "id": "pub_002",
+        "maps_internal": ["fnd_002"],
+        "encoded": "Close calls don’t solve problems; they only delay the consequences.",
+        "themes": ["denial", "risk", "near_miss"],
+        "visibility": "public_safe"
+      },
+      {
+        "id": "pub_003",
+        "maps_internal": ["fnd_003"],
+        "encoded": "Big work always comes with built-in problems; friction is part of the job, not a sign to quit.",
+        "themes": ["complexity", "resilience"],
+        "visibility": "public_safe"
+      },
+      {
+        "id": "pub_004",
+        "maps_internal": ["fnd_004"],
+        "encoded": "Luck is not evenly distributed, even when conditions look the same for everyone.",
+        "themes": ["variance", "fairness", "reality"],
+        "visibility": "public_safe"
+      },
+      {
+        "id": "pub_005",
+        "maps_internal": ["fnd_005"],
+        "encoded": "Lessons avoided often return at higher cost and with less room to maneuver.",
+        "themes": ["learning", "consequence"],
+        "visibility": "public_safe"
+      },
+      {
+        "id": "pub_006",
+        "maps_internal": ["fnd_006"],
+        "encoded": "Time doesn’t erase debts; it quietly compounds them until payment is forced.",
+        "themes": ["time", "accountability"],
+        "visibility": "public_safe"
+      },
+      {
+        "id": "pub_007",
+        "maps_internal": ["fnd_007"],
+        "encoded": "Communities remember patterns long after documents are lost or forgotten.",
+        "themes": ["memory", "reputation", "community"],
+        "visibility": "public_safe"
+      }
+    ]
+  }
+}
